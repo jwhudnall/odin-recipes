@@ -1,6 +1,7 @@
 /* General Typography */
 body {
   background-color: #EEE;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -34,7 +35,7 @@ ul {
   border: 1px solid black;
   border-radius: 0 15px 15px 0;
   display: inline-block;
-  margin: 3px auto;
+  margin: 3px 0 0 0;
   background-color: #FFF;
 }
 
@@ -51,7 +52,7 @@ ul {
 }
 
 .recipe-text {
-  font-size: 15px;
+  font-size: 18px;
   margin: 5px 15px;
   height: 100%;
 }
@@ -63,15 +64,19 @@ ul {
 /* Recipe Pages */
 
 .container {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
-  border: 1px solid black;
+  /* border: 1px solid rgb(146, 138, 138); */
   padding: 10px;
+  border-radius: 15px;
 }
 
 .container > img{
-  /* text-align: center; */
   margin: auto;
   display: block;
   margin-bottom: 10px;
+}
+
+ol > li {
+  margin: 10px auto;
 }
