@@ -1,25 +1,31 @@
+/* General Typography */
 body {
   background-color: #EEE;
 }
+
 h1 {
   text-align: center;
 }
 
-li {
+h2 {
+  margin: 0;
+}
+
+/* Recipe List */
+.recipe-text > li {
   list-style-type: none;
   display: inline-block;
 }
 
 ul {
-  padding: 0;
+  padding: 5px 15px;
   margin: 0;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
 .recipes {
   width: 66%;
   margin: 0 auto;
-  /* background-color: aqua; */
 }
 
 .recipe-card {
@@ -52,4 +58,20 @@ ul {
 
 .recipe-text a {
   text-decoration: none;
+}
+
+/* Recipe Pages */
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container > img{
+  /* text-align: center; */
+  margin: auto;
+  display: block;
+  margin-bottom: 10px;
 }
